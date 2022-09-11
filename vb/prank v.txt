@@ -1,0 +1,22 @@
+do
+x=msgbox("You are hacked baby girl",0+16,"warning")
+do #this will loop again and again
+x=msgbox("Dont be over smart",0+16,"final warning")
+loop
+create file with vbs. You have to make several do and loop if
+you increase messege
+
+first number:
+0 - ok
+1 - ok and cancel
+2 - abort , retry and ignore
+3 - yes, no, cancel
+4- yes and no
+5- retry and cancel
+
+second number :
+0- No icon
+16 - X icon
+32 - ? 
+48 - !
+64 - i

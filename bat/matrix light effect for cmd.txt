@@ -1,0 +1,23 @@
+matrix 1 effect :
+ 
+@echo off 
+color 02
+:start
+echo %random% %random% %random% %random% %random% %random% %random% %random% %random%
+goto start
+
+
+matrix 2 effect :
+ 
+@echo off 
+color 02
+:start
+echo 1001111100000001010010101111100000010101110100110010101010000079
+ping localhost -n 1 > nul
+echo 1735786547788900001010010108889900000010101110900110010234134172
+ping localhost -n 1 > nul
+echo 52434523845940564538405340-2340834173104358945924359493666654394
+ping localhost -n 1 > nul
+echo 079-098780723432434342342348888079870234324342347084074525652357
+ping localhost -n 1 > nul
+goto start

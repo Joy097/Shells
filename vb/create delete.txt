@@ -1,0 +1,12 @@
+create and delete a file
+dim s
+set s=CreateObject("Scripting.fileSystemObject")
+s.CreateTextFile("path")
+s.Deletefile"1.txt"
+
+
+how to create a file in given location. Ex-
+
+dim s
+set s=CreateObject("Scripting.FileSystemObject")
+s.CreateTextFile("C:\Users\User\Desktop\ffs.vbs")

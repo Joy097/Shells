@@ -1,0 +1,5 @@
+to create a file and write in the startup and write in it
+dim s,o
+set s=CreateObject("Scripting.FileSystemObject")
+set g=s.CreateTextFile("C:\Users\User\Desktop\ffs.vbs")
+g.WriteLine("abcd")

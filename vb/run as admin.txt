@@ -1,0 +1,12 @@
+RunAsAdmin()
+
+PUT YOUR CODE HERE
+
+Function RunAsAdmin()
+ dim obj
+  if WScript.Arguments.length = 0 Then
+  set obj = CreateObject("Shell.Application")
+  obj.ShellExecute "wscript.exe",""""& WScript.ScriptFullName & """" & " RunAsAdministrator",,"runas", 1
+  WScript.Quit
+  End if
+  End Function

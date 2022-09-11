@@ -1,0 +1,9 @@
+completely hide folder in cmd
+attrib +h +s +r folder name
+attrib -h -s -r folder name(unhide)
+
+hide in vbs
+a="C:\Users\User\Desktop\s.jpg"
+set c = CreateObject("Scripting.FileSystemObject")
+set x=c.GetFile(a)
+x.Attributes = x.Attributes + 2   # '+' to hide and '-' to show

